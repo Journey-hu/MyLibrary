@@ -3,6 +3,7 @@ package com.hu.mylibrary;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 
 import com.hu.relyontest.LogUtils;
@@ -24,6 +25,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void printLog(View view) {
         LogUtils.showLog("this is a log");
+    }
+
+    public void showInfo(View view) {
     }
 
 }
